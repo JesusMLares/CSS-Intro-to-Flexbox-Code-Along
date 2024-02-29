@@ -1,33 +1,29 @@
-* {
-  border: 1px solid teal;
-}
-
-nav {
-  /*display: none;*/
-}
-
-img {
+img{
   max-width: 175px;
   height: 125px;
 }
 
-section  {
+*{
+  border: 1px solid teal;
+}
+
+section{
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  /* justify-content: space-around; */
-  /* justify-content: space-between; */
   justify-content: space-evenly;
 }
 
-.container {
+.container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-aside {
-  min-width: 20%;
+aside{
+  min-width: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
+
